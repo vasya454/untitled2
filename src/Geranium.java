@@ -1,5 +1,5 @@
-public class Geranium extends Plants {
+public class Geranium extends Plant {
     public Geranium(double height) {
-        super(height);
+        super(height, Type.Flower);
     }
 }

@@ -1,3 +1,3 @@
 public interface Cuttable {
-    Wood cutIt(Plants p);
+    Wood cutIt(Plant p);
 }
