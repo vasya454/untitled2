@@ -4,4 +4,8 @@ public class Wood {
     public Wood(double volume) {
         this.volume = volume;
     }
+
+    public Wood addWood(Wood w) {
+        return new Wood(volume+w.volume);
+    }
 }
