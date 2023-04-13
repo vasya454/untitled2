@@ -7,7 +7,7 @@ public class Pine extends Plant implements Cuttable {
     }
 
     @Override
-    public Wood cutIt(Plant p) {
+    public Wood cutIt() {
         return new Wood(height*0.3);
     }
 
