@@ -8,7 +8,7 @@ public class Pine extends Plant implements Cuttable {
 
     @Override
     public Wood cutIt() {
-        return new Wood(height*0.3);
+        return new Wood(this.height*0.3);
     }
 
     private static Type checkType(Type type) {

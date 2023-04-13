@@ -10,7 +10,7 @@ public class Oak extends Plant implements Cuttable {
 
     @Override
     public Wood cutIt() {
-        return new Wood(height*0.5);
+        return new Wood(this.height*0.5);
     }
     private static Type checkType(Type type) {
         if (type == Type.Tree || type == Type.YoungTree || type == Type.TreeStump) {

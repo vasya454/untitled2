@@ -5,7 +5,7 @@ public class Wood {
         this.volume = volume;
     }
 
-    public Wood addWood(Wood w) {
-        return new Wood(volume+w.volume);
+    public void addWood(Wood w) {
+        this.volume+=w.volume;
     }
 }
